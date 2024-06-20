@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,900&display=swap');
+*{
+    font-family: 'Poppins',cursive;
+}
+
+.clock {
+    width: 30%;
+    height: 130px;
+    background: rgba(255, 255, 255, 0.11);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: absolute;
+    top: 5%;
+    left: 35%;
+}
+
+.clock span {
+    font-size: 60px;
+    width: 70px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+
+.clock span::after{
+    font-size: 13px;
+    position: absolute;
+    bottom: -5px;
+    transform: translateX(-50%);
+}
+
+#hrs::after{
+    content: 'HOURS';
+    margin-left: -28px;
+}
+
+#mins::after{
+    content: 'MINS';
+}
+
+#sec::after{
+    content: 'SEC';
+}
