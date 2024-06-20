@@ -34,13 +34,19 @@
 
 #hrs::after{
     content: 'HOURS';
-    margin-left: -28px;
+    align-items: center;
+    justify-content: center;
 }
 
 #mins::after{
     content: 'MINS';
+    position: absolute;
+    align-items: center;
+    justify-content: center;
 }
 
 #sec::after{
     content: 'SEC';
+    align-items: center;
+    justify-content: center;
 }
