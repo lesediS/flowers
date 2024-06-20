@@ -426,19 +426,20 @@ body {
   transform-origin: right;
   transform: rotate(-70deg) rotateY(30deg) scale(0.6);
 }
+<!-- TODO: THE lil pollen things are these two -->
 .flower__light {
   position: absolute;
   bottom: 0vmin;
   width: 1vmin;
   height: 1vmin;
-  background-color: rgb(255, 251, 0);
+  background-color: #4B006E ;
   border-radius: 50%;
   filter: blur(0.2vmin);
   -webkit-animation: light-ans 4s linear infinite backwards;
   animation: light-ans 4s linear infinite backwards;
 }
 .flower__light:nth-child(odd) {
-  background-color: #234B8F;
+  background-color: #236e00;
 }
 .flower__light--1 {
   left: -2vmin;
