@@ -20,6 +20,10 @@ body {
   perspective: 1000px;
 }
 
+.margs{
+  margin: 20px;;
+}
+
 .night {
   position: fixed;
   left: 50%;
@@ -27,7 +31,6 @@ body {
   transform: translateX(-50%);
   width: 100%;
   height: 100%;
-  filter: blur(0.1vmin);
   background-image: radial-gradient(
       ellipse at top,
       transparent 0%,
@@ -60,7 +63,25 @@ body {
       transparent 22px
     ),
     linear-gradient(90deg, rgb(0, 255, 250), rgb(240, 240, 240));
+  z-index: -1;
 }
+
+.background-blur {
+  width: 100%;
+  height: 100%;
+  filter: blur(10vmin);
+}
+
+.clear-iframe-wrapper {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  width: 30%;
+  height: 50%;
+  overflow: hidden;
+  z-index: 1;
+}
+
 
 .flowers {
   position: relative;
