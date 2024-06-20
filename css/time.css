@@ -29,24 +29,18 @@
     font-size: 13px;
     position: absolute;
     bottom: -5px;
+    left: 50%;
     transform: translateX(-50%);
 }
 
 #hrs::after{
     content: 'HOURS';
-    align-items: center;
-    justify-content: center;
 }
 
 #mins::after{
     content: 'MINS';
-    position: absolute;
-    align-items: center;
-    justify-content: center;
 }
 
 #sec::after{
     content: 'SEC';
-    align-items: center;
-    justify-content: center;
 }
